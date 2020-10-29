@@ -145,6 +145,8 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 8px 30px 8px 24px;
     border: 1px solid #ffc222;
     border-right-width: 20px;
+    position: relative;
+    z-index: 2;
 }
 .default-btn::after{
     content: "\f105";
@@ -164,7 +166,16 @@ font-family: Arial, Helvetica, sans-serif;
     width: 40px;
     height: 40px;
     border: 1px solid #fff;
-    position: relative;
+}
+.slick-btn::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Icomoon';
+}
+.slick-next:before{
+content: "\f105";
 }
 .slick-next{
     right: 0;

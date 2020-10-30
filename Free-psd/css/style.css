@@ -176,7 +176,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: 'Icomoon';
 }
 .slick-next:before{
-content: "\f105";
+    content: "\f105";
 }
 .slick-prev:before{
     content: "\f104";

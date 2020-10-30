@@ -168,12 +168,13 @@ font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #fff;
     background-color: transparent;
 }
-.slick-btn::before{
+.slick-btn:before{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Icomoon';
+    color: #fff;
 }
 .slick-next:before{
     content: "\f105";

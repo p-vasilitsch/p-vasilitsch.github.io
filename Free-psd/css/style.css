@@ -148,7 +148,7 @@ font-family: Arial, Helvetica, sans-serif;
     position: relative;
     z-index: 2;
 }
-.default-btn::after{
+.default-btn:after{
     content: "\f105";
     font-family: 'Icomoon';
     position: absolute;
@@ -167,6 +167,12 @@ font-family: Arial, Helvetica, sans-serif;
     height: 40px;
     border: 1px solid #fff;
     background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffc222;
+}
+.slick-btn.slick-disabled{
+
 }
 .slick-btn:before{
     position: absolute;

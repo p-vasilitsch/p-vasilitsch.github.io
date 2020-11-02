@@ -201,6 +201,7 @@ font-family: Arial, Helvetica, sans-serif;
 .about__top{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 .about__title-box{
     max-width: 520px;
@@ -224,6 +225,22 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
-.about-texr{
-
+.about-text{
+    letter-spacing: 0.1px;
+}
+.about__btn a{
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+}
+.about__items{
+    display: flex;
+    justify-content: space-between;
+}
+.about__item{
+    max-width: 360px;
+    text-align: center;
+    padding: 30px 0px 40px;
 }

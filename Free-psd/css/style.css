@@ -262,4 +262,17 @@ font-family: Arial, Helvetica, sans-serif;
 .about__item-btn{
     position: absolute;
     bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.about__item-btn .default-btn{
+    color: #373636;
+}
+.about__item-btn .default-btn:after{
+    color: #fff;
+}
+.about__item-link{
+    color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #050505;;
 }

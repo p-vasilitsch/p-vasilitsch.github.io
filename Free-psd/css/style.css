@@ -321,7 +321,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-position: bottom right;
 }
 .form__box{
-    max-width: 650px;
+    max-width: 850px;
     padding-top: 45px;
 }
 .form__box-inner{
@@ -333,7 +333,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
 .form__box-right{
-    max-width: 355px;
+    max-width: 555px;
     width: 100%;
 }
 .form__box-inner label,
@@ -342,4 +342,12 @@ font-family: Arial, Helvetica, sans-serif;
 .form__box-inner select{
     display: block;
     width: 100%;
+}
+.form__box-inner label{
+    line-height: 36px;
+    color: #282828;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form__box-inner input{
+    margin-bottom: 8px;
 }

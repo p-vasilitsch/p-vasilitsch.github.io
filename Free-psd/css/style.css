@@ -203,12 +203,14 @@ font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     margin-bottom: 60px;
 }
-.services__title-box{
+.services__title-box,
+.form__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
-.services__title-box:before{
+.services__title-box:before,
+.form__title-box:before{
     content: "";
     position: absolute;
     width: 100px;
@@ -217,7 +219,7 @@ font-family: Arial, Helvetica, sans-serif;
     left: 0;
     top: 11px;
 }
-.services-title{
+.services__title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -225,7 +227,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
-.services-text{
+.services__text{
     letter-spacing: 0.1px;
 }
 .services__btn a{

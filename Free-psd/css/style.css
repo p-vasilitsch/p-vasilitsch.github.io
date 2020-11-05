@@ -219,7 +219,8 @@ font-family: Arial, Helvetica, sans-serif;
     left: 0;
     top: 11px;
 }
-.services__title{
+.services__title,
+.form__title{
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -227,7 +228,8 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
-.services__text{
+.services__text,
+.form__text{
     letter-spacing: 0.1px;
 }
 .services__btn a{
@@ -307,4 +309,17 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .about__btn.default-btn:after{
     color: #000;
+}
+.form{
+    padding-top: 30px;
+}
+.form__inner{
+    padding-bottom: 40px;
+    background-image: url(../img/form__fon.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.form__box{
+    max-width: 850px;
 }

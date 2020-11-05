@@ -350,4 +350,14 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .form__box-inner input{
     margin-bottom: 8px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+}
+.form__box-inner select{
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding-left: 5px;
 }

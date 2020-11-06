@@ -382,3 +382,45 @@ font-family: Arial, Helvetica, sans-serif;
     min-height: 285px;
     background-size: cover;
 }
+.advantages__inner{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-item{
+    max-width: 360px;
+    padding: 0px 20px;
+}
+.advantages__title{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0px 15px;
+    position: relative;
+}
+.advantages__title:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advantages__title:after{
+    content: "\f00c";
+    font-family: 'Icomoon';
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.advantages__text{
+    line-height: 24px;
+    color: #d3d3d3;
+    letter-spacing: 0.1px;
+}

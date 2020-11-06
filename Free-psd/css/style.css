@@ -376,4 +376,9 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .advantages{
     padding: 55px 0px 40px;
+    background-image: url(../img/adv__fon.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 285px;
+    background-size: cover;
 }

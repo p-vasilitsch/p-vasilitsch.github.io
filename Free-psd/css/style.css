@@ -39,7 +39,7 @@ header{
     display: block;
     position: relative;
 }
-.header__btn::before{
+.header__btn:before{
     content: "\f0b1";
     font-family: 'Icomoon';
     position: absolute;
@@ -62,7 +62,7 @@ header{
     padding-left: 20px;
     padding-right: 30px;
 }
-.header__phone::before{
+.header__phone:before{
     content: "\f095";
     font-family: 'icomoon';
     position: absolute;
@@ -72,7 +72,7 @@ header{
 .header__email{
     padding-left: 24px;
 }
-.header__email::before{
+.header__email:before{
     content: "\f003";
     font-family: 'Icomoon';
     position: absolute;
@@ -599,4 +599,11 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 8px 0;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
+}
+#modal{
+    width: 300px;
+}
+#modal input{
+    display: block;
+    width: 100%;
 }

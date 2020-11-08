@@ -180,6 +180,9 @@
         padding-right: 30px;
     }
 }
+
+
+
 @media (min-width: 700px){
     .menu ul{
         display: block !important;

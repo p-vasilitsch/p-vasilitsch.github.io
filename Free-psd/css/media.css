@@ -34,6 +34,10 @@
     .news{
         padding-bottom: 60px;
     }
+    .footer__info{
+        max-width: 465px;
+        margin-bottom: 25px;
+    }
 }
 @media (max-width: 1050px){
     .footer__inner{
@@ -99,6 +103,9 @@
     }
     .header__btn:before{
         display: none;
+    }
+    .footer__info .header__btn:before{
+        display: block;
     }
     .header__btn-menu{
         display: block;
@@ -173,9 +180,6 @@
         padding-right: 30px;
     }
 }
-
-
-
 @media (min-width: 700px){
     .menu ul{
         display: block !important;

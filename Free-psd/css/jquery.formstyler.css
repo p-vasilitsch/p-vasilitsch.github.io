@@ -109,4 +109,4 @@
 .jq-number__field input::-webkit-outer-spin-button {
 	margin: 0; /* в каких-то браузерах присутствует отступ */
 	-webkit-appearance: none;
-}
+} 

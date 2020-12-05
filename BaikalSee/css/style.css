@@ -55,7 +55,7 @@ body {
 }
 
 .header {
-    background-image: url('../Images/header-bg.jpg');
+    background-image: url('../Images/1.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ body {
 }
 
 .header__phone {
-    color: ivory;
+    color: #000;
     padding-left: 40px;
     position: relative;
 }

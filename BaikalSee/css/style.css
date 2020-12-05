@@ -90,8 +90,9 @@ body {
 }
 
 .header__phone::before {
-    content: "\f095";
+    content: "";
     position: absolute;
+    background-image: url('../Images/phone-icon.png');
     width: 30px;
     height: 30px;
     left: 0;
@@ -102,7 +103,7 @@ body {
     text-align: center;
     font-size: 250px;
     line-height: 334px;
-    font-family: 'RobotoCondensed-LightItalic';
+    font-family: 'balqis';
     font-weight: 300;
 }
 
@@ -111,6 +112,7 @@ body {
     text-align: right;
     font-size: 56px;
     line-height: 66px;
+    font-family: 'RobotoCondensed-LightItalic';
     margin-top: -75px;
     margin-right: 85px;
 }

@@ -114,7 +114,7 @@ body {
 .header__phone::before {
     content: "";
     position: absolute;
-    background-image: url('../Images/phone-volume_icon-icons.com_56474.svg');
+    background-image: url('../Images/phone-icon.png');
     width: 30px;
     height: 30px;
     left: 0;
@@ -139,6 +139,11 @@ body {
     margin-right: 85px;
 }
 
-.fairy-tail{
-    
+.fairy-tail__slider{
+    width: 50%;
+}
+.slick-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }

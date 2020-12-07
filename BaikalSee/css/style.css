@@ -54,6 +54,28 @@ body {
     padding: 0 15px;
 }
 
+.page-section{
+    margin: 200px 0;
+}
+
+.title{
+    font-size: 96px;
+    line-height: 128px;
+    color: #e2ab3f;
+    font-family: 'balqis';
+    font-weight: 300;
+}
+
+.title span{
+    line-height: 28px;
+    font-size: 24px;
+    color: #000;
+    font-family: 'RobotoCondensed-LightItalic';
+    display: block;
+    margin-top: -30px;
+    margin-left: 185px;
+}
+
 .header {
     background-image: url('../Images/11.jpg');
     height: 100vh;
@@ -115,4 +137,8 @@ body {
     font-family: 'RobotoCondensed-LightItalic';
     margin-top: -75px;
     margin-right: 85px;
+}
+
+.fairy-tail{
+    
 }

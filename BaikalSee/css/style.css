@@ -150,6 +150,7 @@ body {
     cursor: pointer;
     background-color: transparent;
     border: none;
+    outline: none;
 }
 .slick-prev{
     left: 0;

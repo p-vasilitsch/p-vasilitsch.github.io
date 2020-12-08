@@ -146,4 +146,14 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 5;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 0;
 }

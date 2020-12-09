@@ -159,8 +159,22 @@ body {
     right: 0;
 }
 
+.fairy-tail__inner{
+    position: relative;
+}
+
 .fairy-tail__container{
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.fairy-tail__body{
+    width: 50%;
+    margin-left: auto;
+    padding-left: 55px;
 }

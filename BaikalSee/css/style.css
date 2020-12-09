@@ -158,3 +158,9 @@ body {
 .slick-next{
     right: 0;
 }
+
+.fairy-tail__container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

@@ -114,7 +114,7 @@ body {
 .header__phone::before {
     content: "";
     position: absolute;
-    background-image: url('../Images/phone-icon.png');
+    background-image: url('../Images/phone-volume_icon-icons.com_56474.svg');
     width: 30px;
     height: 30px;
     left: 0;

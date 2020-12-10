@@ -194,3 +194,21 @@ body {
 .fairy-tail__text{
     padding: 10px 0;
 }
+
+.our-trip__slider{
+    width: 50%;
+    margin-left: auto;
+}
+
+.our-trip__inner{
+    position: relative;
+}
+.our-trip__container{
+    max-width: 1230px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}

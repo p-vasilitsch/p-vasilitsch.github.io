@@ -215,5 +215,28 @@ body{
     bottom: 0;
 }
 .our-trip__title span{
-    margin-left: 245px;
+    margin-left: 242px;
+}
+.our-trip__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+}
+.our-trip__list{
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+.our-trip__list li:first-child{
+    margin-bottom: 20px;
+    font-family: 'RobotoCondensed-Regular';
+}
+.our-trip__btn{
+    font-family: 'RobotoCondensed-Light';
+    font-size: 20px;
+    line-height: 22px;
+    border: 1px solid #E2AB3F;
+    padding: 11px 53px;
 }

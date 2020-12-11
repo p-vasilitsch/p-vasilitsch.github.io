@@ -240,3 +240,7 @@ body{
     border: 1px solid #E2AB3F;
     padding: 11px 53px;
 }
+.our-trip__content{
+    width: 50%;
+    padding-right: 55px;
+}

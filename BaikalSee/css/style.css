@@ -69,6 +69,7 @@ body{
     color: #e2ab3f;
     font-family: 'balqis';
     font-weight: 300;
+    margin-bottom: 100px;
 }
 
 .title span{
@@ -264,4 +265,22 @@ body{
 }
 .hotel__gallery a{
     margin-top: 50px;
+}
+.price__inner{
+    display: flex;
+}
+
+.price__on-title,
+.price__off-title{
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-family: 'RobotoCondensed-Regular';
+}
+.price__on{
+    margin-right: 70px;
+    width: 530px;
+}
+.price__list-item{
+    margin-bottom: 20px;
 }

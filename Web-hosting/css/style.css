@@ -1,4 +1,4 @@
-*{
+html{
     box-sizing: border-box;
 }
 *,
@@ -291,4 +291,76 @@ body{
 .footer__form textarea{
     border: 1px solid rgba(255, 255, 255, 0.05);
     background-color: transparent;
+    height: 38px;
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    color: #718db2;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.footer__form input::placeholder,
+.footer__form textarea::placeholder{
+    color: #718db2;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.footer__form textarea{
+    padding: 12px;
+    height: 85px;
+    resize: none;
+    margin-bottom: 10px;
+}
+.footer__form button{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #2c7d22;
+    padding: 10px;
+    cursor: pointer;
+}
+.reviews{
+    padding: 120px 0;
+    background-color: #fafafa;
+}
+.reviews-slider{
+    margin-top: 160px;
+}
+.reviews-slider__item{
+
+}
+.reviews-box{
+    display: flex;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+.reviews-box__images{
+    background-color: #2c7d22;
+    width: 190px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviews-box__images img{
+    border-radius: 50%;
+}
+.reviews-box__content{
+    background-color: #fff;
+    width: 330px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 40px;
+    min-height: 350px;
+}
+.reviews-box__text{
+    margin-bottom: 30px;
+}
+.reviews-box__author span{
+    color: #2c7d22;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }

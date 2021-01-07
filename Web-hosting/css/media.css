@@ -8,7 +8,7 @@
         width: 100%;
         text-align: center;
         border-top: 1px solid #000;
-    } 
+    }
     .menu__list li{
         margin-left: 0;
     }
@@ -19,5 +19,10 @@
     }
     .btn__menu{
         display: block;
+    }
+}
+@media (min-width: 992px){
+    .menu__list{
+        display: flex !important;
     }
 }

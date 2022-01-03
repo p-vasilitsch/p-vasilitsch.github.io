@@ -176,3 +176,41 @@ body {
 .header__content-link--active {
     font-weight: 700;
 }
+
+.product {
+    padding-top: 100px;
+}
+
+.product__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__name {
+    width: 510px;
+}
+
+.product__name-item+.product__name-item {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.product__content {
+    width: 600px;
+}
+
+.product__content-element {}
+
+.product__content-box {}
+
+.product__content-img {}
+
+.product__content-list {}
+
+.product__content-item {}
+
+.product__content-title {}
+
+.product__content-text {}
+
+.product__content-btn {}

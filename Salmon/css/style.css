@@ -283,7 +283,7 @@ body {
     cursor: pointer;
 }
 
-.seafood {
+.seafood-box {
     background-image: url(../images/seafood-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,12 +296,12 @@ body {
     color: #fff;
 }
 
-.seafood__items {
+.seafood-box__items {
     display: flex;
     justify-content: space-around;
 }
 
-.seafood__item {
+.seafood-box__item {
     width: 180px;
     min-height: 165px;
     display: flex;
@@ -313,3 +313,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.seafood {}
+
+.seafoos__items {}
+
+.seafood__item {}
+
+.seafood__item-content {}
+
+.seafood__item-title {}
+
+.seafood__item-text {}
+
+.seafood__item-img {}
